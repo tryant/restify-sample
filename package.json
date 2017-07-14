@@ -1,0 +1,19 @@
+{
+  "name": "restify-sample",
+  "version": "1.0.0",
+  "description": "Sample app created to learn restify framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "restify",
+    "es6"
+  ],
+  "author": "Tim Ryan <tryan@valcom.com>",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^5.0.0"
+  }
+}
