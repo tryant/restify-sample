@@ -21,6 +21,7 @@
   "author": "Tim Ryan <tryan@valcom.com>",
   "license": "ISC",
   "dependencies": {
+    "mongoose": "^4.11.5",
     "restify": "^5.0.0"
   },
   "devDependencies": {
