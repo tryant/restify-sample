@@ -9,8 +9,7 @@
     "build": "babel lib -d dist",
     "serve": "node dist/index.js",
     "deploy": "npm run build && npm run docker",
-    "docker": "docker build -t tryantwit/node-web-app .",
-    "docker-run": "docker run -p 8080:8080 -d tryantwit/node-web-app",
+    "docker": "docker-compose up",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
