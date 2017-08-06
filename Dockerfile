@@ -5,10 +5,10 @@ WORKDIR /var/www/app
 
 COPY package.json yarn.lock ./
 
-RUN yarn install
+RUN yarn install --production
 
 # Bundle app source
-COPY . .
+COPY dist/ .
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
